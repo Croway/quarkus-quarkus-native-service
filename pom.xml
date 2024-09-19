@@ -246,7 +246,7 @@
                       <registryUrl>http://apicurioregistry-sql.apicurio-registry.router-default.apps.cluster-kl9ng.kl9ng.sandbox2997.opentlc.com</registryUrl> 
                       <artifacts>
                         <artifact>
-                            <groupId>api:default</groupId> 
+                            <groupId>it.test</groupId> 
                             <artifactId>openapi-skeleton</artifactId>
                             <file>${project.build.directory}/classes/api-registry/openapi-skeleton.json</file>
                             <overwrite>true</overwrite>
