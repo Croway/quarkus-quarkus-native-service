@@ -277,25 +277,6 @@
                 <skipITs>false</skipITs>
                 <quarkus.native.enabled>true</quarkus.native.enabled>
             </properties>
-            <build>
-                <plugins>
-                  <plugin>
-                    <groupId>${quarkus.platform.group-id}</groupId>
-                    <artifactId>quarkus-maven-plugin</artifactId>
-                    <version>${quarkus.platform.version}</version>
-                    <executions>
-                      <execution>
-                        <goals>
-                          <goal>native-image</goal>
-                        </goals>
-                        <configuration>
-                          <enableHttpUrlHandler>true</enableHttpUrlHandler>
-                        </configuration>
-                      </execution>
-                    </executions>
-                  </plugin>
-                </plugins>
-            </build>
         </profile>
     </profiles>
 </project>
